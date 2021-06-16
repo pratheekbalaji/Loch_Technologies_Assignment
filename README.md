@@ -1,13 +1,13 @@
 # Loch_Technologies_Assignment
-
-# Usage of Client.py
+ There are 2 main files : Client.py and app.py
+## Usage of Client.py
 
 1) The script client.py can be run on the command line using the following command:
    python client.py val1 val2 op (passes two operands and an operator to the function)
 
 2) A call is then made to the flask server which is running inside a docker container which is responsible for verifying the data using ecdsa signature and then performs a simple calculation
 
-# Running the flask server through Docker
+## Running the flask server through Docker
 
 1) Assuming all prerequisities including Docker is installed in your system,the following steps are to be followed: 
 
