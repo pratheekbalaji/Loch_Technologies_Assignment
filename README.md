@@ -17,7 +17,8 @@ Assuming all prerequisities including Docker is installed in your system,the fol
      -  docker build --tag name .
 4) To check if the image is created do the following:
    - docker images 
-Here you should find that your image is created
+
+   Here you should find that your image is created
 
 5) Next run the image as follows( by default the flask server runs on port 5000, which can be tweaked in the Dockerfile)
     -  docker run -p 5000:5000 -it image_name
