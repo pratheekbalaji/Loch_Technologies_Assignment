@@ -18,7 +18,7 @@
 4) Build the dockerfile to create docker image as follows:
      -  docker build --tag name .
 5) To check if the image is created do the following:
-- docker images 
+   - docker images 
 Here you should find that your image is created
 
 6) Next run the image as follows( by default the flask server runs on port 5000, which can be tweaked in the Dockerfile)
