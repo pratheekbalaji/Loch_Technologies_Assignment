@@ -1,6 +1,6 @@
 # Loch_Technologies_Assignment
- There are 2 main files : Client.py and app.py(flask server)
-## Usage of Client.py
+ There are 2 main files : client.py and app.py(flask server)
+## Usage of client.py
 
 1) The script client.py can be run on the command line using the following command:
    python client.py val1 val2 op (passes two operands and an operator to the function)
