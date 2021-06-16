@@ -12,7 +12,7 @@ if __name__ == '__main__':
     op = sys.argv[3]
     url_1 = 'http://localhost:5000/get_api_key'
     response = requests.get(url_1)
-    url-2 = 'http://localhost:5000/verify_api_key'
+    url_2 = 'http://localhost:5000/verify_api_key'
     body = {'data':{'v1':val1,'v2':val2,'op':op,},'signature': response.text}
     r = requests.post(url_2,json = body)
     print(r.text)
